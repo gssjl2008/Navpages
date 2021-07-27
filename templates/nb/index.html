@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宁波导航页</title>
+    <link rel="stylesheet" href="{% static '/nb/css/nb.css' %}">
+</head>
+
+<body style="padding: 10px">
+
+  <div class="container">
+    {% for key,values in info.items %}
+    <div class="container-header">{{ key }}</div>
+      <div class="container-body">
+        {% for p in values %}
+          <div class="item-block">
+            <a href="{{ p.p_src }}" target="_blank">
+              <div class="item-top">
+                <div class="item-logo"><img src="{{ p.p_img.url }}"></div>
+                <div class="item-body">
+                  <span class="title">{{ p.p_name }}</span>
+                  <span class="notice">{{ p.p_desc }}</span>
+                </div>
+              </div>
+            </a>
+            <div class="item-bottom">
+              <a href="{{ p.p_gov_src }}" target="_blank">
+                <div>{{ p.p_gov }}</div>
+              </a>
+
+              {% if p.p_doc %}
+                <div class="divider"></div>
+                <a href="{{ p.p_doc_src }}" target="_blank">
+                  <div>{{ p.p_doc }}</div>
+                </a>
+              {% endif %}
+
+              <div class="divider"></div>
+              {% if p.p_stats == 1 %}
+                <span style="color:green">可访问</span>
+              {% else %}
+                <span style="color:red">不可访问</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+</body>
+
+</html>

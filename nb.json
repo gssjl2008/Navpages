@@ -1,0 +1,178 @@
+[
+    {
+        "model": "nb.page_info",
+        "pk": 1,
+        "fields": {
+            "p_name": "ldap",
+            "p_desc": "用于ldap重置密码，必须大写字母和小写字母以及数字",
+            "p_img": "nb/ico/2021/05/25/ldap.png",
+            "p_src": "http://192.168.50.182:30390",
+            "p_gov": "修改密码",
+            "p_gov_src": "http://192.168.50.182:30390",
+            "p_doc": "重置密码",
+            "p_doc_src": "http://192.168.50.182:30390/?action=sendtoken",
+            "p_stats": 1,
+            "p_types": 1
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 2,
+        "fields": {
+            "p_name": "Gitlab",
+            "p_desc": "内网代码仓库",
+            "p_img": "nb/ico/2021/05/25/gitlab.png",
+            "p_src": "http://192.168.50.182:31001/",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://about.gitlab.com",
+            "p_doc": "帮助文档",
+            "p_doc_src": "https://docs.gitlab.com/ee/README.html",
+            "p_stats": 1,
+            "p_types": 2
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 3,
+        "fields": {
+            "p_name": "jenkins",
+            "p_desc": "持续集成持续部署平台",
+            "p_img": "nb/ico/2021/05/25/jenkins.png",
+            "p_src": "http://192.168.50.182:38080/login",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://www.jenkins.io/zh/",
+            "p_doc": "帮助文档",
+            "p_doc_src": "https://www.jenkins.io/zh/doc/",
+            "p_stats": 1,
+            "p_types": 2
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 4,
+        "fields": {
+            "p_name": "jumpserver",
+            "p_desc": "用于访问服务器的堡垒机",
+            "p_img": "nb/ico/2021/05/25/jumpserver.png",
+            "p_src": "http://192.168.50.182:30084",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://www.jumpserver.org",
+            "p_doc": "帮助文档",
+            "p_doc_src": "https://docs.jumpserver.org/zh/master/",
+            "p_stats": 1,
+            "p_types": 2
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 5,
+        "fields": {
+            "p_name": "rancher",
+            "p_desc": "kubernetes集群管理系统",
+            "p_img": "nb/ico/2021/05/25/rancher.jpg",
+            "p_src": "https://192.168.50.181:8443",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://www.rancher.cn",
+            "p_doc": "帮助文档",
+            "p_doc_src": "https://docs.rancher.cn/rancher2.5/",
+            "p_stats": 1,
+            "p_types": 3
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 6,
+        "fields": {
+            "p_name": "vmware",
+            "p_desc": "服务器虚拟化",
+            "p_img": "nb/ico/2021/05/25/vmware-logo.png",
+            "p_src": "https://192.168.50.149",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://www.vmware.com/cn/worldwide.html",
+            "p_doc": "帮助文档",
+            "p_doc_src": "https://docs.vmware.com/cn/",
+            "p_stats": 1,
+            "p_types": 3
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 7,
+        "fields": {
+            "p_name": "cobbler",
+            "p_desc": "pxe系统安装",
+            "p_img": "nb/ico/2021/05/25/cobbler.jpg",
+            "p_src": "https://192.168.50.101/cobbler_web",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://cobbler-tw.readthedocs.io/zh_TW/latest/",
+            "p_doc": null,
+            "p_doc_src": null,
+            "p_stats": 1,
+            "p_types": 3
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 8,
+        "fields": {
+            "p_name": "锐捷网关",
+            "p_desc": "锐捷网关设置地址",
+            "p_img": "nb/ico/2021/05/25/rujie.jpg",
+            "p_src": "http://192.168.50.254",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://www.ruijie.com.cn/fw/wt/",
+            "p_doc": null,
+            "p_doc_src": null,
+            "p_stats": 1,
+            "p_types": 3
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 9,
+        "fields": {
+            "p_name": "prometheus",
+            "p_desc": "基于metrics进行监控",
+            "p_img": "nb/ico/2021/05/25/prometheus.png",
+            "p_src": "http://192.168.50.182:30090/",
+            "p_gov": "帮助文档",
+            "p_gov_src": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+            "p_doc": null,
+            "p_doc_src": null,
+            "p_stats": 1,
+            "p_types": 3
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 10,
+        "fields": {
+            "p_name": "grafana",
+            "p_desc": "监控数据可视化界面展示",
+            "p_img": "nb/ico/2021/05/25/grafana.jpg",
+            "p_src": "http://192.168.50.182:30092/",
+            "p_gov": "官网地址",
+            "p_gov_src": "https://grafana.com",
+            "p_doc": null,
+            "p_doc_src": null,
+            "p_stats": 1,
+            "p_types": 3
+        }
+    },
+    {
+        "model": "nb.page_info",
+        "pk": 11,
+        "fields": {
+            "p_name": "nexus",
+            "p_desc": "私有仓库",
+            "p_img": "nb/ico/2021/05/25/nexus.png",
+            "p_src": "http://192.168.50.182:30081/",
+            "p_gov": "官方文档",
+            "p_gov_src": "https://help.sonatype.com/docs",
+            "p_doc": null,
+            "p_doc_src": null,
+            "p_stats": 1,
+            "p_types": 2
+        }
+    }
+]

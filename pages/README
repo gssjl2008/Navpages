@@ -1,0 +1,5 @@
+## celery 启动
+```shell
+celery -A pages worker -l INFO          #  worker
+celery -A pages beat -l INFO            #  beat 定时任务
+```
